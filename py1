@@ -1,0 +1,19 @@
+print("Program for leap year!!!")
+user_year=int(input("Please provide a year:"))  # user will provide a input(four digits)
+'''A year is a leap year if it is divisible by 4,
+except that years divisible by 100 are not
+leap years unless they are also divisible by 400'''
+if user_year %4==0 and user_year %100 !=0:
+      print("The year {} is a leap year !!!".format(user_year))
+elif user_year %400 ==0:
+      print("The year {} is a leap year !!!".format(user_year))
+
+elif user_year %100==0:
+      print("The year {} is not a leap year !!!".format(user_year))
+
+else:
+      print("The year {} is not a leap year !!!".format(user_year))
+
+print("Done, Program Completed!!!")
+      
+      
